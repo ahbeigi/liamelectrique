@@ -1,0 +1,99 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('/assets/images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.hero .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.cta-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #001f3f;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #f4f4f4;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #001f3f;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Section Styles */
+#about {
+    background-image: url('/assets/images/about-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+#services {
+    background-image: url('/assets/images/services-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+#contact {
+    background-image: url('/assets/images/contact-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background-color: #001f3f;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

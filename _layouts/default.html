@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="overlay">
+            <h1>{{ site.title }}</h1>
+            <p>Your trusted partner for Residential, Commercial, and Industrial Electrical Services.</p>
+            <a href="#contact" class="cta-button">Get a Free Quote</a>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Liam Electrique. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
